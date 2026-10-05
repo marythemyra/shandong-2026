@@ -29,7 +29,18 @@ a{color:var(--blue);text-decoration:none} a:hover{text-decoration:underline}
     <div class="chips"><span class="chip">濟南 2晚</span><span class="chip">青島 4晚</span></div>
   </div>
 </header>
-<nav class="topbar"><div class="topbar-inner"><a href="#todo">出發前 To do</a><a href="#transport">交通總覽</a><a href="#d1">Day 1</a><a href="#d2">Day 2</a><a href="#d3">Day 3</a><a href="#d4">Day 4</a><a href="#d5">Day 5</a><a href="#d6">Day 6</a><a href="#d7">Day 7</a></div></nav>
+<nav class="topbar">
+  <div class="topbar-inner">
+    <a href="#todo">出發前 To do</a>
+    <a href="#d1">Day 1</a>
+    <a href="#d2">Day 2</a>
+    <a href="#d3">Day 3</a>
+    <a href="#d4">Day 4</a>
+    <a href="#d5">Day 5</a>
+    <a href="#d6">Day 6</a>
+    <a href="#d7">Day 7</a>
+  </div>
+</nav>
 <main class="wrap">
 <section class="section" id="todo"><div class="section-pad">
 <h2>出發前 To do list</h2>
@@ -47,74 +58,36 @@ a{color:var(--blue);text-decoration:none} a:hover{text-decoration:underline}
 <div class="alert">高鐵目前未選班次，所以頁面刻意不亂填「精確時間」。買票後可直接在下面輸入，資料會自動儲存。</div>
 </div></section>
 
-<section class="section" id="transport">
-  <div class="section-pad">
-    <h2>交通 & 住宿總覽</h2>
-    <div class="trip-grid">
-      <div class="tripbox">
-        <b>去程航班</b>
-        <strong>SC1184 · 深圳 SZX → 濟南 TNA</strong>
-        <br>11:55 → 14:40
-      </div>
-      <div class="tripbox">
-        <b>城際高鐵 · Day 3</b>
-        <strong>濟南 → 青島</strong>
-        <input class="editable persist" data-key="trainNo" placeholder="車次：待購票"/>
-        <div style="display:flex;gap:6px">
-          <input class="editable persist" data-key="trainDep" placeholder="出發：HH:MM"/>
-          <input class="editable persist" data-key="trainArr" placeholder="到達：HH:MM"/>
-        </div>
-      </div>
-      <div class="tripbox">
-        <b>回程航班</b>
-        <strong>ZH9916 · 青島 TAO → 深圳 SZX</strong>
-        <br>13:00 → 16:15
-      </div>
-      <div class="tripbox">
-        <b>濟南住宿 · 2晚</b>
-        <strong>山東大廈</strong>
-        <br><a href="https://uri.amap.com/search?keyword=%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%8E%A6&city=%E6%B5%8E%E5%8D%97&callnative=0" target="_blank">高德地圖</a>
-      </div>
-      <div class="tripbox">
-        <b>青島住宿 · 4晚</b>
-        <strong>青島中航翔通大酒店（奧帆中心五四廣場店）</strong>
-        <br><a href="https://uri.amap.com/search?keyword=%E9%9D%92%E5%B2%9B%E4%B8%AD%E8%88%AA%E7%BF%94%E9%80%9A%E5%A4%A7%E9%85%92%E5%BA%97&city=%E9%9D%92%E5%B2%9B&callnative=0" target="_blank">高德地圖</a></div>
-    </div>
-  </div>
-</section>
 
 <section class="section day" id="d1">
   <div class="day-photo" style="background-image:url('https://dimg04.c-ctrip.com/images/0105m12000l65oo0h56CE_W_750_0.jpg')">
     <div class="day-tag">
       <b>DAY 1</b>
-      <span>深圳 → 濟南</span>
+      <span>12月26日 · 星期六</span>
     </div>
   </div>
   <div class="day-body">
     <div class="day-head">
-      <h3>泉城廣場＋寬厚里</h3>
+      <h3>深圳 → 濟南 · 泉城廣場＋寬厚里</h3>
     </div>
     <div class="timeline">
       <div class="item">
         <div class="time">11:55–14:40</div>
-        <h4>SC1184 深圳 → 濟南</h4>
-        <p>落機取行李後前往山東大廈 Check-in。</p>
+        <h4>SC1184 深圳 SZX → 濟南 TNA</h4>
+        <p>寶安機場T3出發 · 包含午餐</p>
+      </div>
+      <div class="item">
+        <div class="time">15:30–16:10</div>
+        <h4>🏨 山東大廈</h4>
+        <p>約35分鐘車程</p>
       </div>
       <div class="item">
         <div class="time">約 17:00</div>
         <h4>泉城廣場 → 泉城路／恒隆</h4>
-        <div class="links">
-          <a class="btn" href="https://www.amap.com/place/B021302AAB" target="_blank">📍 泉城廣場</a>
-          <a class="btn" href="https://uri.amap.com/search?keyword=%E6%B5%8E%E5%8D%97%E6%81%92%E9%9A%86%E5%B9%BF%E5%9C%BA&city=%E6%B5%8E%E5%8D%97&callnative=0" target="_blank">📍 恒隆廣場</a>
-        </div>
       </div>
       <div class="item">
         <div class="time">晚餐</div>
         <h4>寬厚里：濟南小食＋正餐</h4>
-        <div class="links">
-          <a class="btn" href="https://uri.amap.com/search?keyword=%E5%AE%BD%E5%8E%9A%E9%87%8C&city=%E6%B5%8E%E5%8D%97&callnative=0" target="_blank">📍 寬厚里</a>
-          <a class="btn" href="https://uri.amap.com/search?keyword=%E8%8A%99%E8%93%89%E8%A1%97&city=%E6%B5%8E%E5%8D%97&callnative=0" target="_blank">📍 芙蓉街 Optional</a>
-        </div>
       </div>
     </div>
     <div class="note">冬季泉城廣場音樂噴泉可能停維修／調整。</div>
@@ -125,7 +98,7 @@ a{color:var(--blue);text-decoration:none} a:hover{text-decoration:underline}
   <div class="day-photo" style="background-image:url('https://dimg04.c-ctrip.com/images/0105m12000l65oo0h56CE_W_750_0.jpg')">
     <div class="day-tag">
       <b>DAY 2</b>
-      <span>濟南泉城精華</span>
+      <span>12月27日 · 星期日</span>
     </div>
   </div>
   <div class="day-body">
@@ -136,42 +109,29 @@ a{color:var(--blue);text-decoration:none} a:hover{text-decoration:underline}
       <div class="item">
         <div class="time">10:00–11:15</div>
         <h4>趵突泉</h4>
-        <div class="links">
-          <a class="btn" href="https://uri.amap.com/search?keyword=%E8%B6%B5%E7%AA%81%E6%B3%89&city=%E6%B5%8E%E5%8D%97&callnative=0" target="_blank">📍 高德</a>
-          <a class="btn official" href="https://www.jinan.gov.cn/col/col118356/art/2026/art_bc70d88c2d7146ad96ce26ac1ddc52de.html" target="_blank">官方開放資訊</a>
-        </div>
       </div>
       <div class="item">
         <div class="time">11:30–12:15</div>
         <h4>黑虎泉</h4>
-        <div class="links">
-          <a class="btn" href="https://uri.amap.com/search?keyword=%E9%BB%91%E8%99%8E%E6%B3%89&city=%E6%B5%8E%E5%8D%97&callnative=0" target="_blank">📍 高德</a>
-        </div>
       </div>
       <div class="item">
         <div class="time">12:30–13:45</div>
-        <h4>魯菜／泉水宴 Lunch</h4>
+        <h4>午餐：魯菜／泉水宴</h4>
         <p>餐廳未定，近黑虎泉／泉城核心區揀即可。</p>
-        <div class="links">
-          <a class="btn" href="https://uri.amap.com/search?keyword=%E9%B2%81%E8%8F%9C%20%E9%BB%91%E8%99%8E%E6%B3%89&city=%E6%B5%8E%E5%8D%97&callnative=0" target="_blank">🍽️ 待定</a>
-        </div>
       </div>
       <div class="item">
         <div class="time">14:00 起</div>
         <h4>護城河遊船 → 大明湖</h4>
-        <p>以遊船幫你哋減少步行；冬季航線按當日營運調整。</p>
-        <div class="links">
-          <a class="btn" href="https://uri.amap.com/search?keyword=%E6%8A%A4%E5%9F%8E%E6%B2%B3%E6%B8%B8%E8%88%B9&city=%E6%B5%8E%E5%8D%97&callnative=0" target="_blank">📍 遊船</a>
-          <a class="btn" href="https://www.amap.com/place/B0KUBZMOI6" target="_blank">📍 大明湖</a>
-        </div>
+        <p>以遊船幫你哋減少步行；冬季航線按當日營運調整。大明湖可遠眺綠地中心。</p>
       </div>
       <div class="item">
         <div class="time">約 18:00 後</div>
         <h4>超然樓夜景</h4>
         <p>亮燈時間以當日公告為準。</p>
-        <div class="links">
-          <a class="btn" href="https://www.amap.com/place/B0HK6S3TEO" target="_blank">📍 高德</a>
-        </div>
+      </div>
+      <div class="item">
+        <div class="time">19:30</div>
+        <h4>晚餐待定</h4>
       </div>
     </div>
   </div>
@@ -181,36 +141,34 @@ a{color:var(--blue);text-decoration:none} a:hover{text-decoration:underline}
   <div class="day-photo" style="background-image:url('https://news.qingdaonews.com/images/2021-06/22/93b51d24-561b-4919-a3fa-11ba22efe3af.jpeg')">
     <div class="day-tag">
       <b>DAY 3</b>
-      <span>濟南 → 青島 · 海濱夜景</span>
+      <span>12月28日 · 星期一</span>
     </div>
   </div><div class="day-body">
     <div class="day-head">
-      <h3>奧帆中心周邊</h3>
+      <h3>濟南 → 青島 · 奧帆中心周邊海濱夜景</h3>
     </div>
     <div class="timeline">
       <div class="item">
-        <div class="time">上午</div>
-        <h4>慢慢起身＋最後食濟南 Lunch</h4>
+        <div class="time">⚠️ 待購票11:01-13:31</div>
+        <h4>濟南 → 青島/青島北高鐵</h4>
+        <p>約3小時車程</p>
       </div>
       <div class="item">
-        <div class="time">⚠️ 待購票</div>
-        <h4>濟南 → 青島高鐵</h4>
+        <div class="time">12:00</div>
+        <h4>高鐵午餐</h4>
       </div>
       <div class="item">
-        <div class="time">黃昏</div>
-        <h4>五四廣場 → 奧帆中心 → 情人壩</h4>
-        <div class="links">
-          <a class="btn" href="https://www.amap.com/place/B021402991" target="_blank">📍 五四廣場</a>
-          <a class="btn" href="https://uri.amap.com/search?keyword=%E9%9D%92%E5%B2%9B%E5%A5%A5%E5%B8%86%E4%B8%AD%E5%BF%83&city=%E9%9D%92%E5%B2%9B&callnative=0" target="_blank">📍 奧帆中心</a>
-          <a class="btn" href="https://www.amap.com/place/B0HAH6G4QH" target="_blank">📍 情人壩</a>
-        </div>
+        <div class="time">14:00–14:30</div>
+        <h4>🏨 青島中航翔通大酒店（奧帆中心五四廣場店）</h4>
+        <p>約20-25分鐘車程</p>
       </div>
       <div class="item">
-        <div class="time">晚餐</div>
-        <h4>青島晚餐</h4>
-        <div class="links">
-          <a class="btn" href="https://uri.amap.com/search?keyword=%E9%A4%90%E5%8E%85&city=%E9%9D%92%E5%B2%9B&center=120.390288,36.052388&callnative=0" target="_blank">🍽️ 奧帆附近餐廳</a>
-        </div>
+        <div class="time">16:00</div>
+        <h4>燕兒島公園海邊棧道 → 情人壩 → 奧帆中心 → 五四廣場</h4>
+      </div>
+      <div class="item">
+        <div class="time">19:30</div>
+        <h4>青島晚餐待定</h4>
       </div>
     </div>
   </div>
@@ -220,6 +178,7 @@ a{color:var(--blue);text-decoration:none} a:hover{text-decoration:underline}
   <div class="day-photo" style="background-image:url('https://pic.people.com.cn/NMediaFile/2023/1211/MAIN1702257437621KPQ4GAXMFZ.JPG')">
     <div class="day-tag">
       <b>DAY 4</b>
+      <span>12月29日 · 星期二</span>
     </div>
   </div>
   <div class="day-body">
@@ -230,47 +189,30 @@ a{color:var(--blue);text-decoration:none} a:hover{text-decoration:underline}
       <div class="item">
         <div class="time">10:00–10:45</div>
         <h4>棧橋睇冬季海鷗</h4>
-        <div class="links">
-          <a class="btn" href="https://www.amap.com/place/B0FFG19SSX" target="_blank">📍 高德</a>
-        </div>
       </div>
       <div class="item">
         <div class="time">11:00–11:45</div>
         <h4>青島老城輕打卡</h4>
-        <p>中山路／聖彌厄爾教堂外觀，唔做長途 Citywalk。</p>
-        <div class="links">
-          <a class="btn" href="https://uri.amap.com/search?keyword=%E5%9C%A3%E5%BC%A5%E5%8E%84%E5%B0%94%E6%95%99%E5%A0%82&city=%E9%9D%92%E5%B2%9B&callnative=0" target="_blank">📍 聖彌厄爾教堂</a>
-        </div>
+        <p>中山路：水兵俱樂部 → 聖彌厄爾教堂</p>
       </div>
       <div class="item">
-        <div class="time">12:00–13:15</div>
+        <div class="time">12:00–14:15</div>
         <h4>海鮮餐廳 Lunch</h4>
-        <div class="links">
-          <a class="btn" href="https://uri.amap.com/search?keyword=%E6%B5%B7%E9%B2%9C%E9%A4%90%E5%8E%85&city=%E9%9D%92%E5%B2%9B&center=120.330961,36.066163&callnative=0" target="_blank">🍽️ 待定</a>
-        </div>
+        <p>如需團島市場在此加入</p>
       </div>
       <div class="item">
-        <div class="time">13:30–14:30</div>
+        <div class="time">14:30–15:30</div>
         <h4>信號山：紅瓦老城＋海景</h4>
         <p>直接打車到入口，減少斜路。</p>
-        <div class="links">
-          <a class="btn" href="https://www.amap.com/place/B0214075FT" target="_blank">📍 高德</a>
-        </div>
       </div>
       <div class="item">
-        <div class="time">15:00–16:00</div>
+        <div class="time">15:30–16:30</div>
         <h4>八大關</h4>
-        <div class="links">
-          <a class="btn" href="https://www.amap.com/place/B0214024B4" target="_blank">📍 高德</a>
-        </div>
       </div>
       <div class="item">
-        <div class="time">16:00 → 日落</div>
+        <div class="time">16:30 → 日落</div>
         <h4>第二海水浴場</h4>
         <p>12月底日落較早，留最後一段畀海邊。</p>
-        <div class="links">
-          <a class="btn" href="https://www.amap.com/place/B0214024B1" target="_blank">📍 高德</a>
-        </div>
       </div>
     </div>
   </div>
@@ -280,34 +222,25 @@ a{color:var(--blue);text-decoration:none} a:hover{text-decoration:underline}
   <div class="day-photo" style="background-image:url('https://29754941.s21i.faiusr.com/2/1/ABUIABACGAAgs_OGswYo0PCjtQMwuBc40A8.jpg')">
     <div class="day-tag">
       <b>DAY 5</b>
+      <span>12月30日 · 星期三</span>
     </div>
   </div>
   <div class="day-body">
     <div class="day-head">
-      <h3>家電博物館 × 極地海洋</h3>
+      <h3>家電博物館 × 極地海洋公園</h3>
     </div>
     <div class="timeline">
       <div class="item">
         <div class="time">10:00–11:30</div>
         <h4>世界家電博物館</h4>
-        <div class="links">
-          <a class="btn" href="https://uri.amap.com/search?keyword=%E4%B8%96%E7%95%8C%E5%AE%B6%E7%94%B5%E5%8D%9A%E7%89%A9%E9%A6%86&city=%E9%9D%92%E5%B2%9B&callnative=0" target="_blank">📍 高德</a>
-          <a class="btn official" href="https://www.haier.com/" target="_blank">海爾官網</a>
-        </div>
       </div>
       <div class="item">
         <div class="time">11:30–12:30</div>
         <h4>附近 Lunch</h4>
-        <div class="links">
-          <a class="btn" href="https://uri.amap.com/search?keyword=%E9%A4%90%E5%8E%85&city=%E9%9D%92%E5%B2%9B&callnative=0" target="_blank">🍽️ 高德搜尋</a>
-        </div>
       </div>
       <div class="item">
         <div class="time">12:30/13:00 → 閉園</div>
         <h4>青島極地海洋公園</h4>
-        <div class="links">
-          <a class="btn" href="https://uri.amap.com/search?keyword=%E9%9D%92%E5%B2%9B%E6%9E%81%E5%9C%B0%E6%B5%B7%E6%B4%8B%E5%85%AC%E5%9B%AD&city=%E9%9D%92%E5%B2%9B&callnative=0" target="_blank">📍 高德</a>
-        </div>
       </div>
     </div>
   </div>
@@ -317,11 +250,12 @@ a{color:var(--blue);text-decoration:none} a:hover{text-decoration:underline}
   <div class="day-photo" style="background-image:url('https://news.qingdaonews.com/images/2021-06/22/93b51d24-561b-4919-a3fa-11ba22efe3af.jpeg')">
     <div class="day-tag">
       <b>DAY 6</b>
+      <span>12月31日 · 星期四</span>
     </div>
   </div>
   <div class="day-body">
     <div class="day-head">
-      <h3>Buffer Day</h3>
+      <h3>空餘日</h3>
     </div>
     <div class="timeline">
       <div class="item">
@@ -329,19 +263,23 @@ a{color:var(--blue);text-decoration:none} a:hover{text-decoration:underline}
         <h4>待定</h4>
         <p>如果 Day 4 天氣差，亦可以用 Day 6 補戶外景點。</p>
       </div>
-    </div>
-    <div class="optional">
-      <b>Optional A｜青島啤酒博物館＋台東食街</b>
-      <br>當日有興趣、有體力先去；唔預先鎖死。
-      <div class="links">
-        <a class="btn" href="https://www.amap.com/place/B021401A45" target="_blank">📍 啤酒博物館</a>
-        <a class="btn official" href="https://www.tsingtaomuseum.com/" target="_blank">官方網站</a>
-        <a class="btn" href="https://www.amap.com/place/B02140WGC7" target="_blank">📍 台東步行街</a>
+      <div class="item">
+        <div class="time">待定</div>
+        <h4>青島啤酒博物館</h4>
       </div>
-    </div>
-    <div class="optional">
-      <b>晚上 Optional｜海上遊船／藍海珍珠號</b>
-      <br>只在風浪、氣溫、航班都合適時去；否則直接食飯。
+      <div class="item">
+        <div class="time">待定</div>
+        <h4>台東食街</h4>
+      </div>
+      <div class="item">
+        <div class="time">待定</div>
+        <h4>咩咩島</h4>
+      </div>
+      <div class="item">
+        <div class="time">待定</div>
+        <h4>海上遊船／藍海珍珠號</h4>
+        <p>只在風浪、氣溫、航班都合適時去；否則直接食飯。</p>
+      </div>
     </div>
   </div>
 </section>
@@ -350,12 +288,12 @@ a{color:var(--blue);text-decoration:none} a:hover{text-decoration:underline}
   <div class="day-photo" style="background-image:url('https://www.newstravel.co.kr/data/photos/20260208/art_1771631378057_2cab25.jpg?iqs=0.9164010220628068')">
     <div class="day-tag">
       <b>DAY 7</b>
-      <span>青島 → 深圳</span>
+      <span>1月1日 · 星期五</span>
     </div>
   </div>
   <div class="day-body">
     <div class="day-head">
-      <h3>回程日</h3>
+      <h3>青島 → 深圳</h3>
     </div>
     <div class="timeline">
       <div class="item">
@@ -365,13 +303,12 @@ a{color:var(--blue);text-decoration:none} a:hover{text-decoration:underline}
       <div class="item">
         <div class="time">建議約 10:00 出發去機場</div>
         <h4>前往青島膠東國際機場</h4>
-        <div class="links">
-          <a class="btn" href="https://uri.amap.com/search?keyword=%E9%9D%92%E5%B2%9B%E8%83%B6%E4%B8%9C%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA&city=%E9%9D%92%E5%B2%9B&callnative=0" target="_blank">📍 高德</a>
-        </div>
+        <p>約1小時車程</p>
       </div>
       <div class="item">
         <div class="time">13:00–16:15</div>
-        <h4>ZH9916 青島 → 深圳</h4>
+        <h4>ZH9916 · 青島 TAO → 深圳 SZX</h4>
+        <p>包含午餐</p>
       </div>
     </div>
   </div>
